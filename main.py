@@ -3,7 +3,7 @@ from random import randint
 min = 1
 max = 100
 tries = 7
-number = randint(1, 100)
+number = randint(min, max)
 print(f"Бажаю здоров'я! Я загадав число від {min} до {max}. Спробуйте вгадати його за {tries} спроб")
 guess = 0
 for i in range(1, tries):
